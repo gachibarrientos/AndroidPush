@@ -17,27 +17,25 @@ public partial class login : System.Web.UI.Page
         String contraseña = txtContraseña.Text;
         if (usuario != " " && contraseña != " ")
         {
-            String cadenadeconexion = "Data Source=GACHI-PC;Initial Catalog=docentes;User ID=Gachi;Password=gabrielb31";
-            SqlConnection con = new SqlConnection(cadenadeconexion);
-            SqlCommand sql = new SqlCommand();
-            sql.Connection = con;
-            sql.CommandText = "exec verificarUsuarioyContra '"+usuario+"','"+contraseña+"'";
-            con.Open();
-            bool proc = Convert.ToBoolean(sql.ExecuteNonQuery());
-            if (proc) {
+
+            if (usuario=="administrador" && contraseña=="muniapp2016")
+            {
+
                 Response.Redirect("Default.aspx");
-                con.Close();
+
             }
             else
             {
                 Response.Write("Error en la consulta sql");
             }
-            
+
         }
         else {
             Response.Write("Debes ingresar los datos");
         }
     }
+
+    
 
     protected void btnNuevoUsuario_Click(object sender, EventArgs e)
     {
