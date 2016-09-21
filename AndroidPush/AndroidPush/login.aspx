@@ -6,7 +6,7 @@
 
     </title></head><body><form id="form1" runat="server">
         <h1>
-        <asp:Label ID="Label1" runat="server" Text="Inicio de Sesión Docente" style="text-align: center" CssClass="text-primary"></asp:Label>
+        <asp:Label ID="Label1" runat="server" Text="Panel de Adminsitración" style="text-align: center" CssClass="text-primary"></asp:Label>
         
         </h1>
         
