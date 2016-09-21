@@ -3,25 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WsPush", "..\..\..\Visual Studio 2015\WebSites\WsPush\", "{EA81749B-C8C1-46A4-B0CC-FF8E15C127A9}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AndroidPush", "AndroidPush\", "{765E0442-D2EA-4E31-93CF-FF951DA816DF}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_2545"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Visual Studio 2015\WebSites\WsPush\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2545\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_15296"
+		Debug.AspNetCompiler.PhysicalPath = "AndroidPush\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15296\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_2545"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\Visual Studio 2015\WebSites\WsPush\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2545\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_15296"
+		Release.AspNetCompiler.PhysicalPath = "AndroidPush\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_15296\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2545"
-		SlnRelativePath = "..\..\..\Visual Studio 2015\WebSites\WsPush\"
+		VWDPort = "15296"
 	EndProjectSection
 EndProject
 Global
@@ -29,8 +28,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA81749B-C8C1-46A4-B0CC-FF8E15C127A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA81749B-C8C1-46A4-B0CC-FF8E15C127A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765E0442-D2EA-4E31-93CF-FF951DA816DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765E0442-D2EA-4E31-93CF-FF951DA816DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
