@@ -26,19 +26,12 @@ public partial class login : System.Web.UI.Page
             }
             else
             {
-                Response.Write("Error en la consulta sql");
+                Response.Write("Usuario y/o Contraseña incorrectos");
             }
 
         }
         else {
             Response.Write("Debes ingresar los datos");
         }
-    }
-
-    
-
-    protected void btnNuevoUsuario_Click(object sender, EventArgs e)
-    {
-        Response.Redirect("nuevoUsuario.aspx");
     }
 }
